@@ -148,7 +148,7 @@ layout: default
         repo: '{{site.url}}',
         owner: 'zerosbg',
         admin: ['zerosbg'],
-        id: location.pathname,
+        id: decodeURI(window.location.pathname),
 
     });
     gitalk.render('gitalk-container');
