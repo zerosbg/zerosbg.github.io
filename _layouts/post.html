@@ -117,7 +117,6 @@ layout: default
 <!-- 网易云跟帖JS代码 end -->
 {% endif %}
 
-
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -135,6 +134,7 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% include gitalk.html %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
