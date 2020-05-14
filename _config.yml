@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: mjx_321@126.com
 description: "关于程序与设计 | 马建新(Zeros)，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Zeros马建新 的个人博客，与你一起发现更大的世界。"
 keyword: "哲洛, java一日一条, zeros, @Zeros, 哲洛的博客, Zeros Blog, 博客, 个人网站, 互联网"
-url: "http://www.zerosblog.com"              # your hostß, for absolute URL
+url: "https://zerosbg.github.io"              # your hostß, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -64,6 +64,12 @@ kramdown:
 # Netease settings
 netease_comment: false
 
+# gitalk settings
+gitalk:
+  switch: true
+  clientID: 2cd25c672fca5c7213f8
+  clientSecret: 2f9f22e290ee98b4e8faa3d28c1fea4a9f79a41b
+
 
 
 # Analytics settings
@@ -72,7 +78,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: zerosbg.github.io
 
 
 
