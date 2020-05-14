@@ -61,6 +61,10 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+                <!-- gitalk 插件  -->
+                {% if site.gitalk.switch %}
+                <div id="gitalk-container"></div>
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
@@ -138,7 +142,7 @@ layout: default
 <!-- Link Gitalk 的支持文件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-<div id="gitalk-container"></div>
+
 <script type="text/javascript">
     var gitalk = new Gitalk({
 
