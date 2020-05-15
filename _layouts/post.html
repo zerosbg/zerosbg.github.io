@@ -152,7 +152,7 @@ layout: default
         repo: 'zerosbg.github.io',
         owner: 'zerosbg',
         admin: ['zerosbg'],
-        id: window.location.pathname,
+        id: decodeURI(window.location.pathname),
 
     });
     gitalk.render('gitalk-container');
